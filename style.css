@@ -4,7 +4,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
-  background: #a8ceef;
+  background: #0f0b14;
 }
 
 .wrapper {
@@ -21,9 +21,11 @@ body {
   top: 35%;
   left: 30%;
   transform: translate(-50%, -50%);
+  opacity: 0.8;
   color: white;
-  font-family: "Roboto slab";
-  font-size: 84px;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: lighter;
+  font-size: 60px;
   letter-spacing: 8px;
 }
 

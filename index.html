@@ -5,20 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hover distortion Effect | Three.js TweenMax</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/blotter.min.js"
+      integrity="sha512-Na4qwz8+Hb6JAVf8zFKtPri3XX/Z9/drSpFQuA9hUDnSYLFuu+GU0sfyDYw0SIUkvo/gSw//hCW/CjFJmIIc4Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"
+      integrity="sha512-oZlRi+2/UqweL66OV5K871iUNEZm7mYhFtbiUp0Oxs6gK96nPIJUGQAMFXcx0Ax0LdGMNuqeBf90kShN6GAmrg=="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="wrapper"></div>
     <div class="hero-title">
-      <h1>Other</h1>
+      <div id="text"></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-    <script src="dist/hover.umd.js"></script>
-    <script src="app.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"
+      integrity="sha512-kgjZw3xjgSUDy9lTU085y+UCVPz3lhxAtdOVkcO4O2dKl2VSBcNsQ9uMg/sXIM4SoOmCiYfyFO/n1/3GSXZtSg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+      integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./hover.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
